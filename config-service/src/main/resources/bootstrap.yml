@@ -6,5 +6,11 @@ spring:
     config:
       sever:
         git:
-          uri:
-            
+          uri: https://github.com/caleb20/SpringCloud.git
+          searchPath: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
