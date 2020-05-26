@@ -4,10 +4,10 @@ server:
 spring:
   cloud:
     config:
-      sever:
+      server:
         git:
           uri: https://github.com/caleb20/SpringCloud.git
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
